@@ -12,7 +12,89 @@
 </head>
 
 <body>
+    <div class="main-container">
+        <!-- Barre de navigation -->
+        <header>
+            <div class="header-logo">
+                <img src="images/logo/Reservia.svg" alt="Logo Reservia">
+            </div>
+            <div class="header-navbar">
+                <ul>
+                    <li class="header-navbar__item"><a href="#Accomodations">Hébergement</a></li>
+                    <li class="header-navbar__item">Activités</li>
+                    <li class="header-navbar__item">S'inscrire</li>
+                </ul>
+            </div>
+        </header>
 
+        <!--Section de recherche -->
+        <section class="search-container">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <div class="search-bar">
+                <span class="search-bar__icon"><i class="fas fa-map-marker-alt"></i></span>
+                <input type="text" class="search-bar__input">
+                <button class="search-bar__button">Rechercher</button>
+            </div>
+            <div class="search-filters">
+                <div class="filters-label">Filtres</div>
+                <div class="search-filters__item filter">
+                    <span class="filter-lever"><i class="fas fa-money-bill-wave"></i></span>Économique
+                </div>
+                <div class="search-filters__item filter">
+                    <span class="filter-lever"><i class="fas fa-child"></i></span>Familial
+                </div>
+                <div class="search-filters__item filter">
+                    <span class="filter-lever"><i class="fas fa-heart"></i></span>Romantique
+                </div>
+                <div class="search-filters__item filter">
+                    <span class="filter-lever"><i class="fas fa-dog"></i></span>Animaux autorisés
+                </div>
+            </div>
+            <p><span class="info-icon"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans
+                cette ville</p>
+        </section>
+
+        <!-- Section hébergement -->
+        <section class="accomodations-container">
+            <div id="Accomodations" class="accomodations">
+                <h2>Hébergements à Marseille</h2>
+                <div class="accomodations-list">
+                    <div class="accomodation-list__item">
+
+                    </div>
+                    <div class="accomodation-list__item">
+                        <div class="acc-item__image">
+                            <img src="images/hebergements/3_medium/" alt="">
+                        </div>
+                    </div>
+                    <div class="accomodation-list__item">
+
+                    </div>
+                    <div class="accomodation-list__item">
+
+                    </div>
+                    <div class="accomodation-list__item">
+
+                    </div>
+                    <div class="accomodation-list__item">
+
+                    </div>
+                </div>
+                <span class="accomodations-show-more"><a href="#">Afficher plus</a></span>
+            </div>
+            <aside class="popular">
+                <div class="popular__title">
+                    <span>
+                        <h2>Les plus populaires</h2>
+                    </span>
+                    <span>
+                        <i class="fas fa-chart-line"></i>
+                    </span>
+                </div>
+            </aside>
+        </section>
+    </div>
 </body>
 
 </html>
