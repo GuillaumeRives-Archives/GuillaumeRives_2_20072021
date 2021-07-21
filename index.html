@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@450&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e39a925a79.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,13 +18,19 @@
             <div class="header-logo">
                 <img src="images/logo/Reservia.svg" alt="Logo Reservia">
             </div>
-            <div class="header-navbar">
+            <nav class="header-navbar">
                 <ul>
-                    <li class="header-navbar__item"><a href="#Accomodations">Hébergement</a></li>
-                    <li class="header-navbar__item">Activités</li>
-                    <li class="header-navbar__item">S'inscrire</li>
+                    <li class="header-navbar__item">
+                        <a class="header-navbar__lnk anchor" href="#Accomodations">Hébergements</a>
+                    </li>
+                    <li class="header-navbar__item">
+                        <a class="header-navbar__lnk anchor" href="#Activities">Activités</a>
+                    </li>
+                    <li class="header-navbar__item blue">
+                        <a class="header-navbar__lnk sub" href="#">S'inscrire</a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
         </header>
 
         <!--Section de recherche -->
@@ -234,7 +240,7 @@
         </section>
 
         <!-- Activités -->
-        <section class="activities">
+        <section id="Activities" class="activities">
             <div class="activities__item">
                 <img class="activity-img" src="images/activites/vieux-port.jpg" alt="Vieux port" width="302"
                     height="390">
