@@ -66,3 +66,129 @@ header {
     color: #0065fc;
     font-weight: bold;
 }
+
+/* Search section */
+.search-container {
+    margin-top: 23px;
+    padding-left: 5px;
+    line-height: 13px;
+}
+
+.search-container>h1 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.search-bar {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.search-bar__icon {
+    font-size: 18px;
+    display: inline-block;
+    background: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    line-height: 51px;
+    width: 51px;
+    height: 51px;
+}
+
+.search-bar__input {
+    position: relative;
+    left: -4px;
+    top: -1px;
+    border: 1px solid #f2f2f2;
+    height: 49px;
+    width: 205px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 15px 0 15px;
+    border-radius: none;
+}
+
+.search-bar__input:focus {
+    outline: none;
+}
+
+.search-bar__button {
+    position: relative;
+    background: #0065fc;
+    font-family: "Raleway", "Sans-Serif";
+    font-size: 18px;
+    color: white;
+    height: 51px;
+    border: none;
+    padding: 0 18px 0 18px;
+    left: -9px;
+    border-radius: 0 15px 15px 0;
+}
+
+/* Filters */
+.search-filters {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.filters-label {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.search-filters__item {
+    cursor: pointer;
+    height: 46px;
+    line-height: 46px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 22px;
+    border: 2px solid #D9D9D9;
+    border-radius: 24px;
+    margin-right: 26px;
+    transition: background 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.search-filters__item:hover {
+    background: #deebff;
+    color: #0065fc;
+    border-color: #deebff;
+}
+
+.filter-lever {
+    position: relative;
+    top: -2px;
+    left: -4px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    background: #deebff;
+    color: #0065fc;
+}
+
+/* Info text */
+.info-icon {
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 14px;
+    color: #0065fc;
+}
