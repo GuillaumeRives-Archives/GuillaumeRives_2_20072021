@@ -199,7 +199,7 @@ header {
 
 /* #Accomodations */
 .accomodations-container {
-    margin-top: 35px;
+    margin: 35px 0 0 0;
     display: flex;
 }
 
@@ -228,7 +228,6 @@ header {
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .accomodation-list__item>img {
@@ -315,7 +314,6 @@ header {
     background: white;
     margin: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     display: flex;
 }
 
@@ -350,3 +348,30 @@ header {
 .pop-item__desc>.rating>* {
     margin-right: -1px;
 }
+
+/* Marseille Activities */
+.activities-list {
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.activities-list__item {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 44px;
+}
+
+.activities-list__item>img {
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.activities-list__item>p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Footer */
