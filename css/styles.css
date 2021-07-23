@@ -111,7 +111,8 @@ header {
     font-size: 18px;
     font-weight: bolder;
     padding: 0 15px 0 15px;
-    border-radius: none;
+    border-radius: 0;
+    -webkit-appearance: none;
 }
 
 .search-bar__input:focus {
@@ -664,38 +665,57 @@ footer {
 
     /* Popular */
     .popular {
-        width: auto;
-        margin: 0 0 20px 0;
-        padding: 0;
-    }
-
-    .popular__title {
-        font-size: 15px;
-        margin: 0 20px 0 20px;
-    }
-
-    .icon {
-        font-size: 22px;
+        min-width: 0;
     }
 
     .popular-list {
         display: flex;
         flex-flow: column nowrap;
-        padding: 0;
-        margin: 10px 0 30px 0;
-    }
-
-    .popular__title {
-        margin-top: 20px;
+        padding: 20px;
     }
 
     .popular-list__item {
-        margin: 5px 20px;
+        height: 144px;
+        border-radius: 20px;
+        background: white;
+        margin: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+    }
+
+    .popular-list__item>img {
+        border: 5px solid white;
+        border-radius: 20px 0 0 20px;
+        width: 127px;
+        object-fit: cover;
+    }
+
+    .pop-item__desc {
+        margin: 0 20px 0 15px;
+    }
+
+    .pop-item__desc>h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: -8px;
+    }
+
+    .pop-item__desc>p {
+        font-size: 14px;
+    }
+
+    .pop-item__desc>.rating {
+        position: relative;
+        top: 23px;
+        left: -2px;
+        font-size: 11px;
+    }
+
+    .pop-item__desc>.rating>* {
+        margin-right: -1px;
     }
 
     /* Marseille Activities */
-
-
     .activities-list {
         height: auto;
         display: flex;
@@ -716,7 +736,6 @@ footer {
     }
 
     /* Footer */
-
     footer {
         height: auto;
     }
