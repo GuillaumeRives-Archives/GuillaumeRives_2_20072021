@@ -1,3 +1,6 @@
+/* Import de la font Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@450&display=swap');
+
 /* General componants */
 html,
 body {
@@ -90,6 +93,12 @@ main {
 
 .anchor:hover {
     text-decoration: none;
+    color: #0065fc;
+    line-height: 111px;
+    border-top: 2px solid #0065fc;
+}
+
+.active {
     color: #0065fc;
     line-height: 111px;
     border-top: 2px solid #0065fc;
@@ -625,6 +634,12 @@ footer {
     }
 
     .anchor:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .active {
+        color: #0065fc;
         border-top: none;
         border-bottom: 3px solid #0065fc;
     }
