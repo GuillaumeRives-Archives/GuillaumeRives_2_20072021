@@ -167,6 +167,12 @@ main {
     padding: 0 18px 0 0;
     left: -9px;
     border-radius: 0 15px 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-bar__button:hover {
+    background: #deebff;
+    color: #0065fc;
 }
 
 .magnifying {
@@ -544,7 +550,7 @@ footer {
 }
 
 /* Tablet version (little) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     /* Accomodations */
     .accomodations-container {
@@ -586,7 +592,7 @@ footer {
 }
 
 /* Smartphones version */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 576px) {
 
     /* General */
     .card-effect__center:hover {
